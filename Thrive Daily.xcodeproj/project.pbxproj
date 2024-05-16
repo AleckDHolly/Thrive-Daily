@@ -32,6 +32,7 @@
 		0DA69CA72BF578BD000546D3 /* start.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DA69C9D2BF578BD000546D3 /* start.json */; };
 		0DA69CA82BF578BD000546D3 /* welcome.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DA69C9E2BF578BD000546D3 /* welcome.json */; };
 		0DA69CAA2BF5792D000546D3 /* like.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DA69CA92BF5792D000546D3 /* like.json */; };
+		0DA69CC02BF5CB90000546D3 /* fav.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DA69CBF2BF5CB90000546D3 /* fav.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		0DA69C9D2BF578BD000546D3 /* start.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = start.json; sourceTree = "<group>"; };
 		0DA69C9E2BF578BD000546D3 /* welcome.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = welcome.json; sourceTree = "<group>"; };
 		0DA69CA92BF5792D000546D3 /* like.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = like.json; sourceTree = "<group>"; };
+		0DA69CBF2BF5CB90000546D3 /* fav.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fav.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 				0DA69C9C2BF578BD000546D3 /* notes.json */,
 				0DA69C9D2BF578BD000546D3 /* start.json */,
 				0DA69C9E2BF578BD000546D3 /* welcome.json */,
+				0DA69CBF2BF5CB90000546D3 /* fav.json */,
 				0DA69CA92BF5792D000546D3 /* like.json */,
 			);
 			path = videos;
@@ -237,6 +240,7 @@
 				0DA69C732BF577DB000546D3 /* Preview Assets.xcassets in Resources */,
 				0DA69CA02BF578BD000546D3 /* addiction.json in Resources */,
 				0DA69CA72BF578BD000546D3 /* start.json in Resources */,
+				0DA69CC02BF5CB90000546D3 /* fav.json in Resources */,
 				0DA69CA52BF578BD000546D3 /* legendary2.json in Resources */,
 				0DA69CA62BF578BD000546D3 /* notes.json in Resources */,
 				0DA69CA42BF578BD000546D3 /* goal.json in Resources */,
