@@ -8,17 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    @AppStorage("first_time") var firstTime: Bool = true
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        if firstTime {
+            Introduction()
+        } else {
+            Notes()
         }
-        .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    NavigationStack {
+        ContentView()
+    }
 }

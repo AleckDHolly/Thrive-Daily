@@ -11,6 +11,27 @@
 		0DA69C6E2BF577DA000546D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA69C6D2BF577DA000546D3 /* ContentView.swift */; };
 		0DA69C702BF577DB000546D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DA69C6F2BF577DB000546D3 /* Assets.xcassets */; };
 		0DA69C732BF577DB000546D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DA69C722BF577DB000546D3 /* Preview Assets.xcassets */; };
+		0DA69C7D2BF57819000546D3 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA69C7C2BF57819000546D3 /* Page.swift */; };
+		0DA69C812BF57842000546D3 /* Introduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA69C7E2BF57842000546D3 /* Introduction.swift */; };
+		0DA69C822BF57842000546D3 /* SinglePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA69C7F2BF57842000546D3 /* SinglePage.swift */; };
+		0DA69C8B2BF5784D000546D3 /* Addiction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA69C832BF5784D000546D3 /* Addiction.swift */; };
+		0DA69C8C2BF5784D000546D3 /* Favourites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA69C842BF5784D000546D3 /* Favourites.swift */; };
+		0DA69C8D2BF5784D000546D3 /* Habits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA69C852BF5784D000546D3 /* Habits.swift */; };
+		0DA69C8E2BF5784D000546D3 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA69C862BF5784D000546D3 /* Settings.swift */; };
+		0DA69C8F2BF5784D000546D3 /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA69C872BF5784D000546D3 /* Quotes.swift */; };
+		0DA69C902BF5784D000546D3 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA69C882BF5784D000546D3 /* Notes.swift */; };
+		0DA69C912BF5784D000546D3 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA69C892BF5784D000546D3 /* Journal.swift */; };
+		0DA69C922BF5784D000546D3 /* Goals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA69C8A2BF5784D000546D3 /* Goals.swift */; };
+		0DA69C952BF57878000546D3 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 0DA69C942BF57878000546D3 /* Lottie */; };
+		0DA69CA02BF578BD000546D3 /* addiction.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DA69C962BF578BD000546D3 /* addiction.json */; };
+		0DA69CA12BF578BD000546D3 /* book.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DA69C972BF578BD000546D3 /* book.json */; };
+		0DA69CA22BF578BD000546D3 /* calendar.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DA69C982BF578BD000546D3 /* calendar.json */; };
+		0DA69CA42BF578BD000546D3 /* goal.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DA69C9A2BF578BD000546D3 /* goal.json */; };
+		0DA69CA52BF578BD000546D3 /* legendary2.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DA69C9B2BF578BD000546D3 /* legendary2.json */; };
+		0DA69CA62BF578BD000546D3 /* notes.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DA69C9C2BF578BD000546D3 /* notes.json */; };
+		0DA69CA72BF578BD000546D3 /* start.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DA69C9D2BF578BD000546D3 /* start.json */; };
+		0DA69CA82BF578BD000546D3 /* welcome.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DA69C9E2BF578BD000546D3 /* welcome.json */; };
+		0DA69CAA2BF5792D000546D3 /* like.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DA69CA92BF5792D000546D3 /* like.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +40,26 @@
 		0DA69C6D2BF577DA000546D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0DA69C6F2BF577DB000546D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DA69C722BF577DB000546D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0DA69C7C2BF57819000546D3 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		0DA69C7E2BF57842000546D3 /* Introduction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Introduction.swift; sourceTree = "<group>"; };
+		0DA69C7F2BF57842000546D3 /* SinglePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SinglePage.swift; sourceTree = "<group>"; };
+		0DA69C832BF5784D000546D3 /* Addiction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Addiction.swift; sourceTree = "<group>"; };
+		0DA69C842BF5784D000546D3 /* Favourites.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Favourites.swift; sourceTree = "<group>"; };
+		0DA69C852BF5784D000546D3 /* Habits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Habits.swift; sourceTree = "<group>"; };
+		0DA69C862BF5784D000546D3 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		0DA69C872BF5784D000546D3 /* Quotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quotes.swift; sourceTree = "<group>"; };
+		0DA69C882BF5784D000546D3 /* Notes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		0DA69C892BF5784D000546D3 /* Journal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		0DA69C8A2BF5784D000546D3 /* Goals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Goals.swift; sourceTree = "<group>"; };
+		0DA69C962BF578BD000546D3 /* addiction.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = addiction.json; sourceTree = "<group>"; };
+		0DA69C972BF578BD000546D3 /* book.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = book.json; sourceTree = "<group>"; };
+		0DA69C982BF578BD000546D3 /* calendar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = calendar.json; sourceTree = "<group>"; };
+		0DA69C9A2BF578BD000546D3 /* goal.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = goal.json; sourceTree = "<group>"; };
+		0DA69C9B2BF578BD000546D3 /* legendary2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = legendary2.json; sourceTree = "<group>"; };
+		0DA69C9C2BF578BD000546D3 /* notes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = notes.json; sourceTree = "<group>"; };
+		0DA69C9D2BF578BD000546D3 /* start.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = start.json; sourceTree = "<group>"; };
+		0DA69C9E2BF578BD000546D3 /* welcome.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = welcome.json; sourceTree = "<group>"; };
+		0DA69CA92BF5792D000546D3 /* like.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = like.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DA69C952BF57878000546D3 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +94,10 @@
 			isa = PBXGroup;
 			children = (
 				0DA69C6B2BF577DA000546D3 /* Thrive_DailyApp.swift */,
-				0DA69C6D2BF577DA000546D3 /* ContentView.swift */,
+				0DA69C9F2BF578BD000546D3 /* videos */,
+				0DA69C7B2BF577F8000546D3 /* Model */,
+				0DA69C7A2BF577F2000546D3 /* View */,
+				0DA69C792BF577E7000546D3 /* ViewController */,
 				0DA69C6F2BF577DB000546D3 /* Assets.xcassets */,
 				0DA69C712BF577DB000546D3 /* Preview Content */,
 			);
@@ -65,6 +110,63 @@
 				0DA69C722BF577DB000546D3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0DA69C792BF577E7000546D3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0DA69C7A2BF577F2000546D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0DA69C6D2BF577DA000546D3 /* ContentView.swift */,
+				0DA69C802BF57842000546D3 /* Intro */,
+				0DA69C882BF5784D000546D3 /* Notes.swift */,
+				0DA69C872BF5784D000546D3 /* Quotes.swift */,
+				0DA69C892BF5784D000546D3 /* Journal.swift */,
+				0DA69C852BF5784D000546D3 /* Habits.swift */,
+				0DA69C832BF5784D000546D3 /* Addiction.swift */,
+				0DA69C8A2BF5784D000546D3 /* Goals.swift */,
+				0DA69C842BF5784D000546D3 /* Favourites.swift */,
+				0DA69C862BF5784D000546D3 /* Settings.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0DA69C7B2BF577F8000546D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0DA69C7C2BF57819000546D3 /* Page.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0DA69C802BF57842000546D3 /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				0DA69C7E2BF57842000546D3 /* Introduction.swift */,
+				0DA69C7F2BF57842000546D3 /* SinglePage.swift */,
+			);
+			path = Intro;
+			sourceTree = "<group>";
+		};
+		0DA69C9F2BF578BD000546D3 /* videos */ = {
+			isa = PBXGroup;
+			children = (
+				0DA69C962BF578BD000546D3 /* addiction.json */,
+				0DA69C972BF578BD000546D3 /* book.json */,
+				0DA69C982BF578BD000546D3 /* calendar.json */,
+				0DA69C9A2BF578BD000546D3 /* goal.json */,
+				0DA69C9B2BF578BD000546D3 /* legendary2.json */,
+				0DA69C9C2BF578BD000546D3 /* notes.json */,
+				0DA69C9D2BF578BD000546D3 /* start.json */,
+				0DA69C9E2BF578BD000546D3 /* welcome.json */,
+				0DA69CA92BF5792D000546D3 /* like.json */,
+			);
+			path = videos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +185,9 @@
 			dependencies = (
 			);
 			name = "Thrive Daily";
+			packageProductDependencies = (
+				0DA69C942BF57878000546D3 /* Lottie */,
+			);
 			productName = "Thrive Daily";
 			productReference = 0DA69C682BF577DA000546D3 /* Thrive Daily.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +216,9 @@
 				Base,
 			);
 			mainGroup = 0DA69C5F2BF577DA000546D3;
+			packageReferences = (
+				0DA69C932BF57877000546D3 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 0DA69C692BF577DA000546D3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +233,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DA69CA12BF578BD000546D3 /* book.json in Resources */,
 				0DA69C732BF577DB000546D3 /* Preview Assets.xcassets in Resources */,
+				0DA69CA02BF578BD000546D3 /* addiction.json in Resources */,
+				0DA69CA72BF578BD000546D3 /* start.json in Resources */,
+				0DA69CA52BF578BD000546D3 /* legendary2.json in Resources */,
+				0DA69CA62BF578BD000546D3 /* notes.json in Resources */,
+				0DA69CA42BF578BD000546D3 /* goal.json in Resources */,
 				0DA69C702BF577DB000546D3 /* Assets.xcassets in Resources */,
+				0DA69CA82BF578BD000546D3 /* welcome.json in Resources */,
+				0DA69CAA2BF5792D000546D3 /* like.json in Resources */,
+				0DA69CA22BF578BD000546D3 /* calendar.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +255,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DA69C6E2BF577DA000546D3 /* ContentView.swift in Sources */,
+				0DA69C8C2BF5784D000546D3 /* Favourites.swift in Sources */,
+				0DA69C8F2BF5784D000546D3 /* Quotes.swift in Sources */,
+				0DA69C8D2BF5784D000546D3 /* Habits.swift in Sources */,
+				0DA69C902BF5784D000546D3 /* Notes.swift in Sources */,
+				0DA69C922BF5784D000546D3 /* Goals.swift in Sources */,
 				0DA69C6C2BF577DA000546D3 /* Thrive_DailyApp.swift in Sources */,
+				0DA69C7D2BF57819000546D3 /* Page.swift in Sources */,
+				0DA69C812BF57842000546D3 /* Introduction.swift in Sources */,
+				0DA69C8E2BF5784D000546D3 /* Settings.swift in Sources */,
+				0DA69C822BF57842000546D3 /* SinglePage.swift in Sources */,
+				0DA69C8B2BF5784D000546D3 /* Addiction.swift in Sources */,
+				0DA69C912BF5784D000546D3 /* Journal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +406,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,9 +416,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kcela.Thrive-Daily";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,8 +440,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,9 +450,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kcela.Thrive-Daily";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -344,6 +482,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0DA69C932BF57877000546D3 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0DA69C942BF57878000546D3 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0DA69C932BF57877000546D3 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0DA69C602BF577DA000546D3 /* Project object */;
 }

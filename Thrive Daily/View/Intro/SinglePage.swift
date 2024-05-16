@@ -20,12 +20,12 @@ struct SinglePage: View {
             Text(page.title ?? "")
                 .font(.largeTitle)
                 .bold()
+            
             Text(page.phrase)
                 .font(.title)
                 .fontWeight(.semibold)
                 .padding(5)
                 .multilineTextAlignment(.center)
-            
         }
     }
 }
