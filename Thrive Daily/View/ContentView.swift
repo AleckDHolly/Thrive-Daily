@@ -14,13 +14,12 @@ struct ContentView: View {
         if firstTime {
             Introduction()
         } else {
-            Notes()
+           HomePage()
+                .environmentObject(GlobalSettings())
         }
     }
 }
 
 #Preview {
-    NavigationStack {
-        ContentView()
-    }
+    ContentView()
 }

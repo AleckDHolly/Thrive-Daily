@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct Thrive_DailyApp: App {
+    @StateObject private var color = ColorViewModel()
+    @StateObject private var quoteFetcher = QuoteFetcher()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(color)
+                .environmentObject(quoteFetcher)
         }
     }
 }

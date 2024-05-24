@@ -17,7 +17,7 @@ struct Introduction: View {
                     VStack {
                         SinglePage(page: page)
                         pages.last == page ?
-                        NavigationLink(destination: Notes().navigationBarBackButtonHidden()) {
+                        NavigationLink(destination: HomePage().navigationBarBackButtonHidden()) {
                             Button {
                                 firstTime = false
                             } label: {

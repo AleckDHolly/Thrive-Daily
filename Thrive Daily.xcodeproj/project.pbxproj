@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D2FA9592BFEBA4B000613CF /* GlobalNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2FA9582BFEBA4B000613CF /* GlobalNotifications.swift */; };
+		0D7325FC2BF70BD800C0B0AA /* SideMenuItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7325FB2BF70BD800C0B0AA /* SideMenuItems.swift */; };
+		0D7325FE2BF7D92000C0B0AA /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7325FD2BF7D92000C0B0AA /* ViewModifiers.swift */; };
+		0D7326002BF7DFAD00C0B0AA /* ColorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7325FF2BF7DFAD00C0B0AA /* ColorViewModel.swift */; };
+		0D7326022BF7FB4700C0B0AA /* NotesTakingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7326012BF7FB4700C0B0AA /* NotesTakingPage.swift */; };
+		0D7326042BF90A5700C0B0AA /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7326032BF90A5700C0B0AA /* Quote.swift */; };
+		0D7326072BF962C600C0B0AA /* JournalHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7326062BF962C600C0B0AA /* JournalHelp.swift */; };
+		0D7326092BF9644300C0B0AA /* Emotions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7326082BF9644300C0B0AA /* Emotions.swift */; };
+		0D73260B2BF96F8A00C0B0AA /* HelpQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D73260A2BF96F8A00C0B0AA /* HelpQuestionView.swift */; };
+		0D7326772BFAE97500C0B0AA /* JournalPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7326762BFAE97500C0B0AA /* JournalPage.swift */; };
+		0D73267A2BFAEA1300C0B0AA /* SwiftSpeech in Frameworks */ = {isa = PBXBuildFile; productRef = 0D7326792BFAEA1300C0B0AA /* SwiftSpeech */; };
+		0D73267C2BFAF30400C0B0AA /* MicrophoneAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D73267B2BFAF30300C0B0AA /* MicrophoneAccess.swift */; };
+		0D7326822BFBCA8E00C0B0AA /* HabitsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7326812BFBCA8E00C0B0AA /* HabitsPage.swift */; };
+		0D7326842BFBCD7C00C0B0AA /* HabitsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7326832BFBCD7C00C0B0AA /* HabitsItem.swift */; };
+		0D7326862BFBEF9D00C0B0AA /* Pomodoro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7326852BFBEF9D00C0B0AA /* Pomodoro.swift */; };
+		0D7326882BFBF1F100C0B0AA /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7326872BFBF1F100C0B0AA /* TimerView.swift */; };
+		0D73268A2BFBF1FB00C0B0AA /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7326892BFBF1FB00C0B0AA /* StopWatch.swift */; };
+		0D7326932BFC249A00C0B0AA /* endTimer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0D7326922BFC249A00C0B0AA /* endTimer.mp3 */; };
 		0DA69C6C2BF577DA000546D3 /* Thrive_DailyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA69C6B2BF577DA000546D3 /* Thrive_DailyApp.swift */; };
 		0DA69C6E2BF577DA000546D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA69C6D2BF577DA000546D3 /* ContentView.swift */; };
 		0DA69C702BF577DB000546D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DA69C6F2BF577DB000546D3 /* Assets.xcassets */; };
@@ -31,11 +49,31 @@
 		0DA69CA62BF578BD000546D3 /* notes.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DA69C9C2BF578BD000546D3 /* notes.json */; };
 		0DA69CA72BF578BD000546D3 /* start.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DA69C9D2BF578BD000546D3 /* start.json */; };
 		0DA69CA82BF578BD000546D3 /* welcome.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DA69C9E2BF578BD000546D3 /* welcome.json */; };
-		0DA69CAA2BF5792D000546D3 /* like.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DA69CA92BF5792D000546D3 /* like.json */; };
 		0DA69CC02BF5CB90000546D3 /* fav.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DA69CBF2BF5CB90000546D3 /* fav.json */; };
+		0DA69CC22BF5CDC3000546D3 /* QuoteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA69CC12BF5CDC3000546D3 /* QuoteData.swift */; };
+		0DA69CC52BF670B7000546D3 /* DailyQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA69CC42BF670B7000546D3 /* DailyQuote.swift */; };
+		0DA69CC72BF67D7E000546D3 /* NotesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA69CC62BF67D7E000546D3 /* NotesPage.swift */; };
+		0DA69CCB2BF6B875000546D3 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA69CCA2BF6B875000546D3 /* HomePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D2FA9582BFEBA4B000613CF /* GlobalNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalNotifications.swift; sourceTree = "<group>"; };
+		0D7325FB2BF70BD800C0B0AA /* SideMenuItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuItems.swift; sourceTree = "<group>"; };
+		0D7325FD2BF7D92000C0B0AA /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
+		0D7325FF2BF7DFAD00C0B0AA /* ColorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewModel.swift; sourceTree = "<group>"; };
+		0D7326012BF7FB4700C0B0AA /* NotesTakingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTakingPage.swift; sourceTree = "<group>"; };
+		0D7326032BF90A5700C0B0AA /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		0D7326062BF962C600C0B0AA /* JournalHelp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalHelp.swift; sourceTree = "<group>"; };
+		0D7326082BF9644300C0B0AA /* Emotions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emotions.swift; sourceTree = "<group>"; };
+		0D73260A2BF96F8A00C0B0AA /* HelpQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpQuestionView.swift; sourceTree = "<group>"; };
+		0D7326762BFAE97500C0B0AA /* JournalPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalPage.swift; sourceTree = "<group>"; };
+		0D73267B2BFAF30300C0B0AA /* MicrophoneAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrophoneAccess.swift; sourceTree = "<group>"; };
+		0D7326812BFBCA8E00C0B0AA /* HabitsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsPage.swift; sourceTree = "<group>"; };
+		0D7326832BFBCD7C00C0B0AA /* HabitsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsItem.swift; sourceTree = "<group>"; };
+		0D7326852BFBEF9D00C0B0AA /* Pomodoro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pomodoro.swift; sourceTree = "<group>"; };
+		0D7326872BFBF1F100C0B0AA /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		0D7326892BFBF1FB00C0B0AA /* StopWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
+		0D7326922BFC249A00C0B0AA /* endTimer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = endTimer.mp3; sourceTree = "<group>"; };
 		0DA69C682BF577DA000546D3 /* Thrive Daily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Thrive Daily.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DA69C6B2BF577DA000546D3 /* Thrive_DailyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thrive_DailyApp.swift; sourceTree = "<group>"; };
 		0DA69C6D2BF577DA000546D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,8 +98,11 @@
 		0DA69C9C2BF578BD000546D3 /* notes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = notes.json; sourceTree = "<group>"; };
 		0DA69C9D2BF578BD000546D3 /* start.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = start.json; sourceTree = "<group>"; };
 		0DA69C9E2BF578BD000546D3 /* welcome.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = welcome.json; sourceTree = "<group>"; };
-		0DA69CA92BF5792D000546D3 /* like.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = like.json; sourceTree = "<group>"; };
 		0DA69CBF2BF5CB90000546D3 /* fav.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fav.json; sourceTree = "<group>"; };
+		0DA69CC12BF5CDC3000546D3 /* QuoteData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteData.swift; sourceTree = "<group>"; };
+		0DA69CC42BF670B7000546D3 /* DailyQuote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyQuote.swift; sourceTree = "<group>"; };
+		0DA69CC62BF67D7E000546D3 /* NotesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesPage.swift; sourceTree = "<group>"; };
+		0DA69CCA2BF6B875000546D3 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D73267A2BFAEA1300C0B0AA /* SwiftSpeech in Frameworks */,
 				0DA69C952BF57878000546D3 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,6 +118,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D7326052BF962A300C0B0AA /* Journaling */ = {
+			isa = PBXGroup;
+			children = (
+				0DA69C892BF5784D000546D3 /* Journal.swift */,
+				0D7326762BFAE97500C0B0AA /* JournalPage.swift */,
+				0D7326062BF962C600C0B0AA /* JournalHelp.swift */,
+				0D73260A2BF96F8A00C0B0AA /* HelpQuestionView.swift */,
+				0D7326082BF9644300C0B0AA /* Emotions.swift */,
+			);
+			path = Journaling;
+			sourceTree = "<group>";
+		};
+		0D7326802BFBCA7700C0B0AA /* All Habits */ = {
+			isa = PBXGroup;
+			children = (
+				0DA69C852BF5784D000546D3 /* Habits.swift */,
+				0D7326852BFBEF9D00C0B0AA /* Pomodoro.swift */,
+				0D7326872BFBF1F100C0B0AA /* TimerView.swift */,
+				0D7326892BFBF1FB00C0B0AA /* StopWatch.swift */,
+				0D7326812BFBCA8E00C0B0AA /* HabitsPage.swift */,
+				0D7326832BFBCD7C00C0B0AA /* HabitsItem.swift */,
+			);
+			path = "All Habits";
+			sourceTree = "<group>";
+		};
 		0DA69C5F2BF577DA000546D3 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +168,7 @@
 				0DA69C7A2BF577F2000546D3 /* View */,
 				0DA69C792BF577E7000546D3 /* ViewController */,
 				0DA69C6F2BF577DB000546D3 /* Assets.xcassets */,
+				0D7326922BFC249A00C0B0AA /* endTimer.mp3 */,
 				0DA69C712BF577DB000546D3 /* Preview Content */,
 			);
 			path = "Thrive Daily";
@@ -125,11 +193,14 @@
 			isa = PBXGroup;
 			children = (
 				0DA69C6D2BF577DA000546D3 /* ContentView.swift */,
+				0D7325FD2BF7D92000C0B0AA /* ViewModifiers.swift */,
+				0D7326032BF90A5700C0B0AA /* Quote.swift */,
 				0DA69C802BF57842000546D3 /* Intro */,
-				0DA69C882BF5784D000546D3 /* Notes.swift */,
+				0DA69CC32BF6709A000546D3 /* Homepage */,
+				0DA69CCC2BF6B967000546D3 /* NotesAndFolders */,
 				0DA69C872BF5784D000546D3 /* Quotes.swift */,
-				0DA69C892BF5784D000546D3 /* Journal.swift */,
-				0DA69C852BF5784D000546D3 /* Habits.swift */,
+				0D7326052BF962A300C0B0AA /* Journaling */,
+				0D7326802BFBCA7700C0B0AA /* All Habits */,
 				0DA69C832BF5784D000546D3 /* Addiction.swift */,
 				0DA69C8A2BF5784D000546D3 /* Goals.swift */,
 				0DA69C842BF5784D000546D3 /* Favourites.swift */,
@@ -142,6 +213,11 @@
 			isa = PBXGroup;
 			children = (
 				0DA69C7C2BF57819000546D3 /* Page.swift */,
+				0DA69CC12BF5CDC3000546D3 /* QuoteData.swift */,
+				0D7325FB2BF70BD800C0B0AA /* SideMenuItems.swift */,
+				0D7325FF2BF7DFAD00C0B0AA /* ColorViewModel.swift */,
+				0D73267B2BFAF30300C0B0AA /* MicrophoneAccess.swift */,
+				0D2FA9582BFEBA4B000613CF /* GlobalNotifications.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -167,9 +243,27 @@
 				0DA69C9D2BF578BD000546D3 /* start.json */,
 				0DA69C9E2BF578BD000546D3 /* welcome.json */,
 				0DA69CBF2BF5CB90000546D3 /* fav.json */,
-				0DA69CA92BF5792D000546D3 /* like.json */,
 			);
 			path = videos;
+			sourceTree = "<group>";
+		};
+		0DA69CC32BF6709A000546D3 /* Homepage */ = {
+			isa = PBXGroup;
+			children = (
+				0DA69CC42BF670B7000546D3 /* DailyQuote.swift */,
+				0DA69CCA2BF6B875000546D3 /* HomePage.swift */,
+			);
+			path = Homepage;
+			sourceTree = "<group>";
+		};
+		0DA69CCC2BF6B967000546D3 /* NotesAndFolders */ = {
+			isa = PBXGroup;
+			children = (
+				0DA69C882BF5784D000546D3 /* Notes.swift */,
+				0DA69CC62BF67D7E000546D3 /* NotesPage.swift */,
+				0D7326012BF7FB4700C0B0AA /* NotesTakingPage.swift */,
+			);
+			path = NotesAndFolders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +284,7 @@
 			name = "Thrive Daily";
 			packageProductDependencies = (
 				0DA69C942BF57878000546D3 /* Lottie */,
+				0D7326792BFAEA1300C0B0AA /* SwiftSpeech */,
 			);
 			productName = "Thrive Daily";
 			productReference = 0DA69C682BF577DA000546D3 /* Thrive Daily.app */;
@@ -217,10 +312,12 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 0DA69C5F2BF577DA000546D3;
 			packageReferences = (
 				0DA69C932BF57877000546D3 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				0D7326782BFAEA1300C0B0AA /* XCRemoteSwiftPackageReference "SwiftSpeech" */,
 			);
 			productRefGroup = 0DA69C692BF577DA000546D3 /* Products */;
 			projectDirPath = "";
@@ -238,6 +335,7 @@
 			files = (
 				0DA69CA12BF578BD000546D3 /* book.json in Resources */,
 				0DA69C732BF577DB000546D3 /* Preview Assets.xcassets in Resources */,
+				0D7326932BFC249A00C0B0AA /* endTimer.mp3 in Resources */,
 				0DA69CA02BF578BD000546D3 /* addiction.json in Resources */,
 				0DA69CA72BF578BD000546D3 /* start.json in Resources */,
 				0DA69CC02BF5CB90000546D3 /* fav.json in Resources */,
@@ -246,7 +344,6 @@
 				0DA69CA42BF578BD000546D3 /* goal.json in Resources */,
 				0DA69C702BF577DB000546D3 /* Assets.xcassets in Resources */,
 				0DA69CA82BF578BD000546D3 /* welcome.json in Resources */,
-				0DA69CAA2BF5792D000546D3 /* like.json in Resources */,
 				0DA69CA22BF578BD000546D3 /* calendar.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,19 +355,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DA69CC72BF67D7E000546D3 /* NotesPage.swift in Sources */,
+				0DA69CCB2BF6B875000546D3 /* HomePage.swift in Sources */,
+				0D7326002BF7DFAD00C0B0AA /* ColorViewModel.swift in Sources */,
 				0DA69C6E2BF577DA000546D3 /* ContentView.swift in Sources */,
+				0D7326862BFBEF9D00C0B0AA /* Pomodoro.swift in Sources */,
+				0D7325FC2BF70BD800C0B0AA /* SideMenuItems.swift in Sources */,
 				0DA69C8C2BF5784D000546D3 /* Favourites.swift in Sources */,
+				0D73268A2BFBF1FB00C0B0AA /* StopWatch.swift in Sources */,
 				0DA69C8F2BF5784D000546D3 /* Quotes.swift in Sources */,
 				0DA69C8D2BF5784D000546D3 /* Habits.swift in Sources */,
+				0D7326772BFAE97500C0B0AA /* JournalPage.swift in Sources */,
+				0D2FA9592BFEBA4B000613CF /* GlobalNotifications.swift in Sources */,
 				0DA69C902BF5784D000546D3 /* Notes.swift in Sources */,
 				0DA69C922BF5784D000546D3 /* Goals.swift in Sources */,
+				0D7326842BFBCD7C00C0B0AA /* HabitsItem.swift in Sources */,
+				0D73267C2BFAF30400C0B0AA /* MicrophoneAccess.swift in Sources */,
+				0D7326042BF90A5700C0B0AA /* Quote.swift in Sources */,
+				0D73260B2BF96F8A00C0B0AA /* HelpQuestionView.swift in Sources */,
+				0D7326022BF7FB4700C0B0AA /* NotesTakingPage.swift in Sources */,
+				0D7326882BFBF1F100C0B0AA /* TimerView.swift in Sources */,
 				0DA69C6C2BF577DA000546D3 /* Thrive_DailyApp.swift in Sources */,
 				0DA69C7D2BF57819000546D3 /* Page.swift in Sources */,
+				0D7326072BF962C600C0B0AA /* JournalHelp.swift in Sources */,
+				0D7326092BF9644300C0B0AA /* Emotions.swift in Sources */,
+				0D7325FE2BF7D92000C0B0AA /* ViewModifiers.swift in Sources */,
 				0DA69C812BF57842000546D3 /* Introduction.swift in Sources */,
 				0DA69C8E2BF5784D000546D3 /* Settings.swift in Sources */,
+				0DA69CC52BF670B7000546D3 /* DailyQuote.swift in Sources */,
 				0DA69C822BF57842000546D3 /* SinglePage.swift in Sources */,
 				0DA69C8B2BF5784D000546D3 /* Addiction.swift in Sources */,
+				0DA69CC22BF5CDC3000546D3 /* QuoteData.swift in Sources */,
 				0DA69C912BF5784D000546D3 /* Journal.swift in Sources */,
+				0D7326822BFBCA8E00C0B0AA /* HabitsPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,7 +446,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -386,7 +503,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -407,12 +524,14 @@
 				DEVELOPMENT_TEAM = HAC7HSBS8D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Thrive-Daily-Info.plist";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Use the microphone to translate speech into text.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Use the microphone to recognize your voice.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -441,12 +560,14 @@
 				DEVELOPMENT_TEAM = HAC7HSBS8D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Thrive-Daily-Info.plist";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Use the microphone to translate speech into text.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Use the microphone to recognize your voice.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,6 +609,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		0D7326782BFAEA1300C0B0AA /* XCRemoteSwiftPackageReference "SwiftSpeech" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Cay-Zhang/SwiftSpeech";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		0DA69C932BF57877000546D3 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
@@ -499,6 +628,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		0D7326792BFAEA1300C0B0AA /* SwiftSpeech */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0D7326782BFAEA1300C0B0AA /* XCRemoteSwiftPackageReference "SwiftSpeech" */;
+			productName = SwiftSpeech;
+		};
 		0DA69C942BF57878000546D3 /* Lottie */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 0DA69C932BF57877000546D3 /* XCRemoteSwiftPackageReference "lottie-ios" */;
